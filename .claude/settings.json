@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat ~/.vscode-server/extensions/vitest.explorer-1.50.8/package.json | grep -A5 \"activationEvents\")",
+      "Read(//home/lemekk/.vscode-server/extensions/vitest.explorer-1.50.8/**)"
+    ]
+  }
+}
