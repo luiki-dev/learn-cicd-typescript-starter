@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(cat ~/.vscode-server/extensions/vitest.explorer-1.50.8/package.json | grep -A5 \"activationEvents\")",
-      "Read(//home/lemekk/.vscode-server/extensions/vitest.explorer-1.50.8/**)"
+      "Read(//home/lemekk/.vscode-server/extensions/vitest.explorer-1.50.8/**)",
+      "Bash(cat)",
+      "Bash(npx tsc *)",
+      "Bash(node dist/basetest.js)",
+      "Bash(echo \"---node exit: $?\")",
+      "Bash(rm -f src/basetest.ts dist/basetest.js)"
     ]
   }
 }
