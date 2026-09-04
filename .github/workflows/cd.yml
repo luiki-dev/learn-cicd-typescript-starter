@@ -22,4 +22,4 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: mpn run build
+        run: npm run build
