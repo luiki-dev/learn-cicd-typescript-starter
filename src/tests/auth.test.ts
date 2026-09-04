@@ -2,7 +2,6 @@ import { IncomingHttpHeaders } from "http";
 import { getAPIKey } from "../api/auth.js";
 import { describe, expect, test } from "vitest";
 
-
 describe("getAPIKey tests", () => {
   test("getAPIKey basic flow", () => {
     const headers: IncomingHttpHeaders = {
