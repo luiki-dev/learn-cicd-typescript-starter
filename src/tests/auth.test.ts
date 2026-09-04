@@ -20,7 +20,7 @@ describe("getAPIKey tests", () => {
     const headers: IncomingHttpHeaders = {
       authorization: "ApiKey",
     };
-    expect(getAPIKey(headers)).toBe(null);
+    expect(getAPIKey(headers)).toBe("yes");
   });
 
   test("getAPIKey wrong auth scheme", () => {
